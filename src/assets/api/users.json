@@ -1,0 +1,63 @@
+ [
+    {
+      "id" : 1,
+      "name" : "Haritha Jayasankar",
+      "status" : 1,
+      "color":"green"
+    },
+    {
+      "id" : 2,
+      "name" : "Sowmica M.L",
+      "status" : 0,
+      "color":"lightblue"
+      
+    },
+    {
+      "id" : 3,
+      "name" : "Vishal Pk",
+      "status" : 1,
+      "color":"pink"
+    },
+    {
+      "id" : 4,
+      "name" : "Govind K",
+      "status" : 0,
+      "color":"orange"
+    },
+    {
+      "id" : 5,
+      "name" : "Hari Vishnu Prasad",
+      "status" : 0,
+      "color":"violet"
+    },
+    {
+      "id" : 6,
+      "name" : "Gowtham S",
+      "status" : 1,
+      "color":"green"
+    },
+    {
+      "id" : 7,
+      "name" : "Damini",
+      "status" : 0,
+      "color":"blue"
+    },
+    {
+      "id" : 8,
+      "name" : "Mohan Raj",
+      "status" : 1,
+      "color":"yellow"
+    },
+    {
+      "id" : 9,
+      "name" : "Akshaya Venkatesh",
+      "status" : 1,
+      "color":"lightblue"
+    },
+    {
+      "id" : 10,
+      "name" : "Naveen Mohan",
+      "status" : 0,
+      "color":"green"
+    }
+  ]

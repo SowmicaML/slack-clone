@@ -1,0 +1,52 @@
+<mat-sidenav-container class="container">
+  <mat-sidenav id="sidenav" mode="side" opened="true" style="width:20%;">
+    <div class="header">
+      <h3>Coda Academy Batch 2021 <span class="material-icons">
+        keyboard_arrow_down
+        </span></h3>
+    </div>
+    <mat-nav-list class=" list sidenav-firstlist">
+      <app-first-list ></app-first-list>
+    </mat-nav-list>
+    <mat-nav-list class=" list sidenav-channelList">
+      
+      <a mat-list-item routerLink="/#" routerLinkActive="active">
+        <span class="material-icons icon" (click)="showChannelListToggle=!showChannelListToggle">
+          keyboard_arrow_down
+          </span>
+        <span class="icon-name">Channels</span>
+        
+        <span class="material-icons add right">add</span>
+      </a>
+        <app-menu-list [showChannelListToggle]="showChannelListToggle" [showChannelList]="true"></app-menu-list>
+     
+    </mat-nav-list>
+    <mat-nav-list class="list sidenav-DMList">
+      <a  class="DM-header" mat-list-item routerLink="/#" routerLinkActive="active">
+      <span class="material-icons icon" (click)="showUserListToggle=!showUserListToggle">
+        keyboard_arrow_down
+        </span>
+        <span class="icon-name">Direct messages</span>
+        <span class="material-icons add">add</span>
+      </a>
+      <app-menu-list [showUserListToggle]="showUserListToggle" [showUserList]="true"></app-menu-list>
+    </mat-nav-list>
+    <mat-nav-list class="list sidenav-AppList" >
+      <a mat-list-item routerLink="/#" routerLinkActive="active">
+        <span class="material-icons icon" (click)="showAppListToggle=!showAppListToggle">
+         keyboard_arrow_down
+          </span>
+      
+          <span class="icon-name">Apps</span>
+         
+          <span class="material-icons add">add</span>
+      </a>
+      <app-menu-list [showAppListToggle]="showAppListToggle" [showAppList]="true"></app-menu-list>
+      
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content id="main-content">
+    <!-- <router-outlet></router-outlet> -->
+    <p style="height:100vh">Main content </p>
+  </mat-sidenav-content>
+</mat-sidenav-container>

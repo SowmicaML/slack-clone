@@ -1,0 +1,32 @@
+[
+    {
+        "channelId": 1,
+        "channelName": "coda-support",
+        "iconName" :"lock"
+    },
+    {
+        "channelId": 2,
+        "channelName": "general",
+        "iconName" :"#"
+    },
+    {
+        "channelId": 3,
+        "channelName": "mentor-mentee",
+        "iconName" :"lock"
+    },
+    {
+        "channelId": 4,
+        "channelName": "power-rangers",
+        "iconName" :"#"
+    },
+    {
+        "channelId": 5,
+        "channelName": "proj-olx",
+        "iconName" :"#"
+    },
+    {
+        "channelId": 6,
+        "channelName": "Add Channels",
+        "iconName" :"add"
+    }
+]
