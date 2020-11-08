@@ -12,7 +12,17 @@
   font-size: 15px;
   line-height: 28px;
 }
-
+.item:hover{
+  background-color: #350d36;
+  .close-icon{
+    visibility:visible;
+  }
+}
+.close-icon{
+  margin-left: auto;
+  visibility: hidden;
+  color:#bcabbc;
+}
 .routeIcon {
   border-radius: 20%;
   padding:2px;
@@ -89,4 +99,3 @@
   color:#fcedea;
   background-color: #de4e2b;
 }
-

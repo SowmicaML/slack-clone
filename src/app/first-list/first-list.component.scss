@@ -1,25 +1,27 @@
 .container{
-    margin:0;
-    padding:0;
-    display: flex;
-    
-    
+  margin:0;
+  padding:0;
+  display: flex;
+  max-width: 100%;
+  
 }
 
 
 .routeIcon {
-    font-size: 18px;
-    text-align:center;
-    // vertical-align: middle;
-    // align-self: center;
-    padding-top:2%;
-    margin-right:2%;
-  }
-  .item{
-    height:31px;
-    padding-left:0;
-    color:#bcabbc;
-    font-size: 15px;
-    line-height:28px;
-  }
- 
+  font-size: 18px;
+  text-align:center;
+  // vertical-align: middle;
+  // align-self: center;
+  padding-top:2%;
+  margin-right:2%;
+}
+.item{
+  height:31px;
+  padding-left:0;
+  color:#bcabbc;
+  font-size: 15px;
+  line-height:28px;
+}
+.item:hover{
+  background-color: #350d36;
+}

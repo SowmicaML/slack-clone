@@ -11,8 +11,9 @@ export const firstlist = [
         name : "Mentions & reactions",
         iconName: "alternate_email",
     },
+   
     {
-        name : "Saved items",
+        name : "Saved Items",
         iconName: "bookmark_border",
     },
     {

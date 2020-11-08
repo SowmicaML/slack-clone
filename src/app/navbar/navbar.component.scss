@@ -1,0 +1,45 @@
+
+.navbar{
+    height:7%;
+    background-color: #350d36;
+    display: flex;
+    width: 100%;
+    .nav-left{
+        color: white;
+        width: 33.33%;
+        text-align: end;
+        margin: 10px 10px;
+    }
+    .search-box{          
+        width: 33.33%;
+        margin: 10px 10px;   
+        input{
+            width: 98%;
+            background-color: #431e44;
+            border-style: none;
+            height: 20px;
+            padding-left:10px ;
+            color: #fff;
+        }
+    }
+    .nav-right{
+        color: white;
+        width: 33.33%;
+        margin: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        
+        .nav-user{
+            width: 28px;
+            height: 28px;
+            background-color: white;      
+            margin-top: -5px;
+            border-radius: 15%;                  
+        }
+    }
+    .icon{
+        color:white;
+    }
+    
+}
+

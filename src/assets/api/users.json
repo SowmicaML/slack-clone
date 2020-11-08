@@ -1,20 +1,19 @@
- [
+[
     {
       "id" : 1,
-      "name" : "Haritha Jayasankar",
+      "name" : "Haritha Jayasankar    you",
       "status" : 1,
       "color":"green"
     },
     {
       "id" : 2,
-      "name" : "Sowmica M.L",
+      "name" : "Akshaya Venkatesh",
       "status" : 0,
       "color":"lightblue"
-      
     },
     {
       "id" : 3,
-      "name" : "Vishal Pk",
+      "name" : "Damini",
       "status" : 1,
       "color":"pink"
     },
@@ -26,38 +25,49 @@
     },
     {
       "id" : 5,
-      "name" : "Hari Vishnu Prasad",
+      "name" : "Gowtham S",
       "status" : 0,
       "color":"violet"
     },
     {
       "id" : 6,
-      "name" : "Gowtham S",
+      "name" : "Hari Vishnu Prasad",
       "status" : 1,
       "color":"green"
     },
     {
       "id" : 7,
-      "name" : "Damini",
+      "name" : "Mohan Raj",
       "status" : 0,
       "color":"blue"
     },
     {
       "id" : 8,
-      "name" : "Mohan Raj",
+      "name" : "Naveen Mohan",
       "status" : 1,
       "color":"yellow"
     },
     {
       "id" : 9,
-      "name" : "Akshaya Venkatesh",
+      "name" : "Sowmica M.L",
       "status" : 1,
       "color":"lightblue"
     },
     {
       "id" : 10,
-      "name" : "Naveen Mohan",
+      "name" : "Vishal Pk",
       "status" : 0,
       "color":"green"
     }
   ]
+
+
+
+
+
+
+
+
+
+
+

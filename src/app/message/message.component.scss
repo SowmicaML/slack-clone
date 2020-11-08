@@ -1,0 +1,119 @@
+@import '~@ctrl/ngx-emoji-mart/picker';
+.text {
+    width: 99%;
+    height: 3rem;
+    border: none;
+    border-radius: 8px;
+}
+
+button {
+    width: 30px;
+    height: 20px;
+    padding: 12px;
+}
+
+i {
+    padding: 12px;
+    //  padding-left: 5px;
+    //  padding-right: 20px;
+    //  padding-bottom: ;
+}
+
+i:hover {
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+
+ba .send {
+    background-color: white;
+    margin-left: 19%;
+    padding: 2px;
+}
+
+i {
+    color: rgb(80, 73, 65);
+}
+
+.formatting {
+    background-color: rgb(250, 250, 250);
+    text-overflow: ellipsis;
+    border-radius: 8px;
+}
+
+.fa-bolt:hover {
+    color: rgb(55, 108, 223);
+}
+
+.fa-smile:hover {
+    color: rgb(240, 220, 44);
+}
+
+.box {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-left: 25px;
+    margin-right: 30px;
+}
+
+.fa-font,
+.fa-paper-plane,
+.fa-at,
+.fa-paperclip {
+    border-radius: 8px;
+    float: right;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+.fa-paper-plane:hover {
+    color: aliceblue;
+    background-color: #007A5A;
+}
+
+input:focus {
+    outline: none;
+}
+
+.fa-bolt {
+    border-radius: 0px;
+    border-right: 1px solid rgb(202, 202, 202);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px black;
+}
+
+.tooltip .tooltiptext {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

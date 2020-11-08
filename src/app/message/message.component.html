@@ -1,0 +1,27 @@
+<div *ngFor="let m of messageArray">
+    <p>{{m}}</p>
+</div>
+<div class="box">
+    <input (keydown.enter)="textdisplay()" [(ngModel)]="message" type=" text " class="text " placeholder="Enter a message"><br>
+    <div class="formatting">
+        <i class="fas fa-bolt tooltip"><span class="tooltiptext">Shortcuts</span></i>
+        <i class="fas fa-bold tooltip"><span class="tooltiptext">Bold</span></i>
+        <i class="fas fa-italic tooltip"><span class="tooltiptext">Italic</span></i>
+        <i class="fas fa-strikethrough tooltip"><span class="tooltiptext">Strikethrough</span></i>
+        <i class="fas fa-code tooltip"><span class="tooltiptext">Code</span></i>
+        <i class="fas fa-link tooltip"><span class="tooltiptext">Link</span></i>
+        <i class="fas fa-list-ol tooltip"><span class="tooltiptext">Ordered list</span></i>
+        <i class="fas fa-list tooltip"><span class="tooltiptext">List</span></i>
+        <i class="fas fa-grip-lines tooltip"><span class="tooltiptext">Block Quote</span></i>
+        <i class="fas fa-code tooltip"><span class="tooltiptext">Code Block</span></i>
+        <i class="far fa-smile tooltip"><span class="tooltiptext">Smileys</span></i>
+
+        <i (click)="textdisplay()" class="far fa-paper-plane tooltip"><span class="tooltiptext">Send</span></i>
+        <i class="fas fa-font tooltip"><span class="tooltiptext">Font</span></i>
+        <i class="fas fa-at tooltip"><span class="tooltiptext">Mention</span></i>
+
+        <i class=" fas fa-paperclip tooltip "><span class="tooltiptext ">Attach</span></i>
+
+    </div>
+
+</div>

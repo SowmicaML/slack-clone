@@ -1,22 +1,19 @@
-// .main-content{
-//     height:88vh;
-// }
+
+#main-content{
+    background-color:white;
+    color: black;
+    overflow:hidden;
+    height:93vh;
+}
 #sidenav{
     background-color: #3F0E40;
-    font-size:16px;
+    font-size:16px;   
+    // overflow-x: hidden !important; 
 }
-// .sidenav-list{
- 
-// }
-// .sidenav-channelList{
-   
-// }
-// .sidenav-DMList{
-  
-// }
+
 .list{
     color:#bcabbc;
-    margin-left: .2%;
+    // margin-left: .2%;
     a{
         color:#bcabbc;
     }
@@ -27,42 +24,86 @@
 }
 
 .header{
+    background-color: #3F0E40;
+    // position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    color:white;
+    font-weight:bold;
+    height:65px;
     display: flex;
     align-items: center;
-    width: 100%;
-    border: 1px solid #bcabbc;
-    margin-left:-1px;
+    width: 93%;
+    border-top: .01px solid  #837e83;
+    border-bottom: .01px solid #837e83;
+    overflow: hidden;
+    padding-left:5%;
+    padding-right:2%;
+    z-index:10;
+    -ms-overflow-style: none;
 }
+.header:hover{
+    background-color: #350d36;
+    cursor:pointer;
+    
+}
+.header::-webkit-scrollbar {
+    display: none;
+  }
+.header h3{
+    width:60%;
+    margin:1% 2% 1% 1%;
+    // padding:0% 4%;
+    font-weight:bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.compose-msg{
+    width: 30px;
+  height: 30px;
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 80%; 
+}
+
+.icon:hover{
+    background-color: #532753;
+    color:#bcabbc;
+    opacity:.7;
+    border-radius: 20%;
+}
+
+.icon-name{
+    font-size: 15px;
+    line-height: 28px;
+    margin-left:1%;
+}
+
+.sidenav-channelList{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+.overflow{
+    overflow:hidden;
+}
+
+.mat-list-item-content{
+    
+    padding: 0%;
+}
+.item:hover{
+    background-color: #350d36;
+    .add{
+        visibility: visible;
+    }
+  }  
 .add{
     visibility: hidden;
     margin-left:20%;
     margin-left: auto;
 }
 
-.icon-name:hover + .add{
-    visibility: visible; 
-} 
-
-.icon-name{
-    font-size: 15px;
-    line-height: 28px;
-}
-
-.sidenav-channelList{
-    display: flex;
-    flex-direction: column;
-}
-.mat-list-item-content{
-    
-    padding: 0%;
-}
-// .list1 .right{
-//     margin-left: 80px;;
-//   }
-//   .list2 .right{
-//     margin-left: 30px;;
-//   }
-//   .list3 .right{
-//     margin-left: 110px;;
-//   }
-  

@@ -1,0 +1,12 @@
+<div class="message-container" style="height:100%">
+  <app-chat-header [receiver]="receiver" style="height:10%"></app-chat-header>
+  <div class="pl" style="height:70%">
+      <cdk-virtual-scroll-viewport itemSize="50" class="example-viewport">
+          <div *cdkVirtualFor="let message of messages" class="example-item">
+            <app-message-box [message]='message' ></app-message-box>
+          </div>
+      </cdk-virtual-scroll-viewport>
+        
+  </div>
+  <app-message style="height:20%"></app-message>
+</div>

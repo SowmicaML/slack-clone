@@ -1,5 +1,4 @@
-
-    <!-- <a mat-list-item *ngFor="let channel of channels">
+<!-- <a mat-list-item *ngFor="let channel of channels">
       {{ channel.channelName}}
     </a> -->
 <div  *ngIf="showChannelList && showChannelListToggle">
@@ -18,10 +17,10 @@
         <span *ngIf="user.status ===0 ? true:false" class="offlinestatus"></span>
     </span>
     <span class="user-item-name">{{user.name}}</span>
+    <span class="material-icons close-icon">close</span>
     </a>
 </div>
 </div>
-
 <div *ngIf="showAppList && showAppListToggle" class="app-container">
   <a  class="item" mat-list-item routerLink="/#" routerLinkActive="active">
     <mat-icon class="routeIcon">add</mat-icon>

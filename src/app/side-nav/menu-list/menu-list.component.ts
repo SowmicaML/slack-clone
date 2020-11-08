@@ -1,14 +1,11 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ListServiceService } from 'src/app/list-service.service';
-
-
 @Component({
   selector: 'app-menu-list',
   templateUrl: './menu-list.component.html',
   styleUrls: ['./menu-list.component.scss']
 })
 export class MenuListComponent implements OnInit {
-
   constructor(private listservice : ListServiceService) { }
   channels;
   users;
@@ -26,5 +23,4 @@ export class MenuListComponent implements OnInit {
       this.users = res;
     })
   }
-  
 }
