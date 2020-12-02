@@ -1,0 +1,109 @@
+//Top navbar styling
+.navbar {
+    height: 45px;
+    background-color: #350d36;
+    display: flex;
+    width: 100%;
+    //navbar left side styling
+    .nav-left {
+        color: white;
+        width: 33.33%;
+        text-align: end;
+        margin: 10px 10px;
+    }
+    //search box styling
+    .search-box {
+        width: 33.33%;
+        margin: 10px 10px;
+        input {
+            width: 98%;
+            background-color: #431e44;
+            border-style: none;
+            height: 20px;
+            padding-left: 10px;
+            color: #fff;
+        }
+    }
+    //nav right side styling
+    .nav-right {
+        color: white;
+        width: 33.33%;
+        margin: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        //user icon styling
+        .nav-user {
+            width: 28px;
+            height: 28px;
+            background-color: white;
+            margin-top: -5px;
+            border-radius: 15%;
+        }
+    }
+    .icon {
+        color: white;
+    }
+    .userIconWrapper {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        margin-top: -5px;
+    }
+    .person-icon {
+        border-radius: 20%;
+        color: white;
+        background-color: lightseagreen;
+        font-size: 2em;
+    }
+    //Online status styling
+    .onlinestatus {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        border: 2px solid #3F0E40;
+        background-color: #2BAC76;
+        position: absolute;
+        top: 40%;
+        left: 65%;
+    }
+}
+
+//tooltip styling
+.tooltip {
+    position: relative;
+    display: inline-block;
+    z-index: 5;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 5;
+    top: 100%;
+    left: 100%;
+    margin-left: -60px;
+    font-size: 0.9em;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+    z-index: 5;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    z-index: 5;
+}

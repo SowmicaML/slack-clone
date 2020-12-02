@@ -1,0 +1,34 @@
+<!-- Condition for rendering the channel list on toggle -->
+<div *ngIf="showChannelList && showChannelListToggle">
+    <div class="channelContainer" *ngFor="let channel of channels">
+        <a class="item" mat-list-item routerLink="/#" routerLinkActive="active">
+            <mat-icon class="routeIcon"> {{channel.iconName}}</mat-icon>
+            <span class="channel-item-name">{{channel.channelName}}</span>
+        </a>
+    </div>
+</div>
+
+<!-- Condition for rendering the user list on toggle -->
+<div *ngIf="showUserList && showUserListToggle">
+    <div class="userContainer" *ngFor="let user of users; index as i">
+        <a class="item" mat-list-item routerLink="/user/{{user.name}}" routerLinkActive="active">
+
+            <!-- User online and offline list(Conditionally rendering)  -->
+            <span class="userIconWrapper ">
+              <i [class]="user.color" class=" material-icons person-icon ">person</i>
+              <span *ngIf="user.status ===1 ? true:false" class="onlinestatus"></span>
+            <span *ngIf="user.status ===0 ? true:false" class="offlinestatus"></span>
+            </span>
+            <span class="user-item-name">{{user.name}}</span><span *ngIf="user.name == currentUser" class="you">you</span>
+            <span class="material-icons close-icon ">close</span>
+        </a>
+    </div>
+</div>
+
+<!-- Condition for rendering the app list on toggle -->
+<div *ngIf="showAppList && showAppListToggle " class="app-container ">
+    <a class="item " mat-list-item routerLink="/# " routerLinkActive="active ">
+        <mat-icon class="routeIcon ">add</mat-icon>
+        <span class="app-item-name ">Add apps</span>
+    </a>
+</div>

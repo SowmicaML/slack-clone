@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+@import '~@ctrl/ngx-emoji-mart/picker';
+
+>>>>>>> sowmica
 html, body { height: 100%; }
 body { 
     margin: 0;
@@ -7,6 +12,7 @@ body {
  }
  ::-webkit-scrollbar-track
 {
+<<<<<<< HEAD
     box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	border-radius: 10px;
@@ -16,11 +22,26 @@ body {
 {
 	width: 7px;
 	background-color: #bcabbc;
+=======
+   
+    border-radius: 10px;
+    background-color: #3F0E40;;
+}
+::-webkit-scrollbar
+{
+    width: 7px;
+    background-color: #BCABBC;
+>>>>>>> sowmica
 }
 ::-webkit-scrollbar-thumb
 {
     border-radius: 10px;
     box-shadow:inset 0 0 6px rgba(0,0,0,.3) ;
+<<<<<<< HEAD
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #bcabbc;;
+=======
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #BCABBC;;
+>>>>>>> sowmica
 }

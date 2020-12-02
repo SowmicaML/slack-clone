@@ -1,0 +1,88 @@
+//main container
+.chat-head-container {
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+    border-bottom: 1px solid #e2e2e2;
+    //user details
+    .user-info {
+        display: flex;
+        font-size: 1.1em;
+        align-items: center;
+        padding-left: 10px;
+        span {
+            padding: 5px;
+        }
+        .circle {
+            font-size: 0.8em;
+            color: green;
+        }
+        .star {
+            font-size: 1.1em;
+        }
+        .uname {
+            font-weight: 500;
+            font-size: 1.1em;
+            text-transform: capitalize;
+        }
+    }
+    //icons styling
+    .right {
+        display: flex;
+        font-size: 1.1em;
+        align-items: center;
+        padding-right: 10px;
+        .call,
+        .info {
+            font-size: 1.5em;
+            padding: 5px;
+            margin: 5px;
+        }
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .call:hover,
+    .info:hover,
+    .star:hover {
+        background-color: #e2e2e2;
+    }
+}
+
+//tooltip 
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 100%;
+    margin-left: -60px;
+    font-size: 0.9em;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

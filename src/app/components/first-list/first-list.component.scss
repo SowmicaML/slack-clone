@@ -1,0 +1,28 @@
+//Main Container design
+.container{
+  margin:0;
+  padding:0;
+  display: flex;
+  max-width: 100%; 
+}
+// Icon styling
+.routeIcon {
+  font-size: 18px;
+  text-align:center;
+  padding-top:2%;
+  margin-right:2%;
+}
+
+//List Item Styling
+.item{
+  height:31px;
+  padding-left:0;
+  color:#bcabbc;
+  font-size: 15px;
+  line-height:28px;
+}
+
+//Item hover effect
+.item:hover{
+  background-color: #350d36;
+}

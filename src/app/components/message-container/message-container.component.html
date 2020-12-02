@@ -1,0 +1,15 @@
+<div class="h100">
+    <!-- chat header -->
+    <app-chat-header [receiver]="receiver" ></app-chat-header>
+    <!-- message compoent -->
+    <div class="pl">
+        <cdk-virtual-scroll-viewport itemSize="50" class="example-viewport">
+            <div *ngFor="let message of messages" class="example-item">
+                <app-message-box [message]='message'></app-message-box>
+            </div>
+        </cdk-virtual-scroll-viewport>
+
+    </div>
+    <!-- message input field -->
+    <app-message class="msg" (sendMessage)="sendMessageToParent($event)"></app-message>
+</div>

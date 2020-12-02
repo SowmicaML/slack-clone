@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
     {
       "id" : 1,
@@ -16,14 +17,34 @@
       "name" : "Damini",
       "status" : 1,
       "color":"pink"
+=======
+[{
+        "id": 1,
+        "name": "Hari",
+        "status": 1,
+        "color": "green"
     },
     {
-      "id" : 4,
-      "name" : "Govind K",
-      "status" : 0,
-      "color":"orange"
+        "id": 2,
+        "name": "Akshaya Venkatesh",
+        "status": 0,
+        "color": "lightblue"
     },
     {
+        "id": 3,
+        "name": "Damini",
+        "status": 1,
+        "color": "pink"
+>>>>>>> sowmica
+    },
+    {
+        "id": 4,
+        "name": "Govind K",
+        "status": 0,
+        "color": "orange"
+    },
+    {
+<<<<<<< HEAD
       "id" : 5,
       "name" : "Gowtham S",
       "status" : 0,
@@ -71,3 +92,41 @@
 
 
 
+=======
+        "id": 5,
+        "name": "Gowtham S",
+        "status": 0,
+        "color": "violet"
+    },
+    {
+        "id": 6,
+        "name": "Haritha Jayashankar",
+        "status": 1,
+        "color": "green"
+    },
+    {
+        "id": 7,
+        "name": "Mohan Raj",
+        "status": 0,
+        "color": "blue"
+    },
+    {
+        "id": 8,
+        "name": "Naveen Mohan",
+        "status": 1,
+        "color": "yellow"
+    },
+    {
+        "id": 9,
+        "name": "Sowmica M.L",
+        "status": 1,
+        "color": "lightblue"
+    },
+    {
+        "id": 10,
+        "name": "Vishal Pk",
+        "status": 0,
+        "color": "green"
+    }
+]
+>>>>>>> sowmica

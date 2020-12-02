@@ -1,0 +1,143 @@
+//Card design styling
+.card {
+    background-color: #f8f8f8;
+    border-radius: 2%;
+    width: 300px;
+    position: absolute;
+    z-index: 10;
+    right: 2%;
+    top: 4%;
+    -webkit-box-shadow: 2px 1px 9px 1px rgba(155, 155, 155, 0.42);
+    box-shadow: 2px 1px 9px 1px rgba(155, 155, 155, 0.42);
+    border: 1px solid rgba(155, 155, 155, 0.42);
+}
+
+//Card attributes styling
+.card-title {
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 6%;
+    margin-left: 8%;
+}
+
+.card-header {
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+//user name style
+.title {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #1d1c1d;
+}
+
+//update status button design
+.button {
+    display: inline-block;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    color: #1d1c1d;
+    text-decoration: none;
+    margin-top: 5%;
+    margin-left: 8%;
+    font-size: 15px;
+    display: flex;
+    width: 230px;
+    border-radius: 5%;
+}
+
+span.text {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 340;
+    margin-left: 3%;
+}
+
+//button hover styling
+.button:hover>* {
+    font-weight: 400;
+}
+
+.button:hover {
+    border: 1px solid black;
+    .emoji {
+        color: black;
+        background-color: yellow;
+        border-radius: 100%;
+    }
+}
+
+//Active status design
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #007a5a;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+//Active line styling
+.subtitle {
+    font-size: 13px;
+    color: #9c9c9c;
+    font-weight: 400;
+}
+
+//away line styling to make it bold
+.bold {
+    font-weight: bolder;
+}
+
+//hover effect
+.list-item {
+    padding: 1% 9%;
+    font-size: 15px;
+    line-height: 28px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.list-item:hover {
+    background-color: #1264a3;
+    color: white;
+    cursor: pointer;
+}
+
+.list-item:hover a {
+    color: white;
+}
+
+hr {
+    color: #dcdcdc;
+}
+
+//Edit profile div design
+.edit-profile {
+    display: flex;
+}
+
+.list-item img {
+    width: 25px;
+    height: 30px;
+}
+
+//Edit profile line design
+.edit {
+    margin-left: 4%;
+    padding: 4px;
+}
+
+//right arrow design
+.icon {
+    text-align: center;
+    padding: 3%;
+    float: right;
+    color: #626162;
+    text-decoration: none;
+}

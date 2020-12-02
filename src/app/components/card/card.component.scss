@@ -1,0 +1,161 @@
+//Card design styling
+.card {
+    background-color: #f8f8f8;
+    border-radius: 2%;
+    width: 300px;
+    position: absolute;
+    z-index: 3;
+    left: 3%;
+    top: 13%;
+    max-height: 86%;
+    overflow-y: scroll;
+    -webkit-box-shadow: 2px 1px 9px 1px rgba(155, 155, 155, 0.42);
+    box-shadow: 2px 1px 9px 1px rgba(155, 155, 155, 0.42);
+    border: 1px solid rgba(155, 155, 155, 0.42);
+}
+
+//Scrollbar to the card
+.card::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.card::-webkit-scrollbar {
+    width: 7px;
+    background-color: #BCABBC;
+}
+
+.card::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #BCABBC;
+}
+
+//Card attributes styling
+.card-title {
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 6%;
+    margin-left: 8%;
+}
+
+.card-header {
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #1d1c1d;
+}
+
+.subtitle {
+    font-size: 13px;
+    color: #9c9c9c;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: 550;
+    line-height: 18px;
+    color: #1d1c1d;
+    margin-block-end: 0;
+    margin-left: 8%;
+}
+
+//Message Spinner styling
+.text-img {
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+    margin-left: 8%;
+}
+
+.text-img img {
+    height: 60px;
+    margin-right: auto;
+}
+
+//Section 1 styling
+.section1 {
+    margin-top: 7%;
+}
+
+//indian flag and span styling
+.offer-img {
+    display: flex;
+    padding-left: 8%;
+}
+
+.offer-img img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.offer-img:hover {
+    background-color: #1264a3;
+    color: white;
+    cursor: pointer;
+}
+
+.offer-img:hover .blue-color {
+    background-color: #1264a3;
+    color: white;
+}
+
+//Span element styling with hover
+.blue-color {
+    color: #558fbc;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.blue-color:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+//List item styling with hover effects
+.list-item {
+    padding: 1% 9%;
+    font-size: 15px;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.list-item:hover {
+    background-color: #1264a3;
+    color: white;
+    cursor: pointer;
+}
+
+.list-item:hover a {
+    color: white;
+}
+
+hr {
+    color: #dcdcdc;
+}
+
+.list-item img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    float: right;
+    border: 4px solid white;
+}
+
+//Slack icon styling
+.material-icons {
+    text-align: center;
+    float: right;
+    color: #626162;
+    text-decoration: none;
+}

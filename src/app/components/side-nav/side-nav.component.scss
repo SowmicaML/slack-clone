@@ -1,0 +1,167 @@
+// Main container Styling
+.container {
+    /* Firefox */
+    height: -moz-calc(100% - 45px);
+    /* WebKit */
+    height: -webkit-calc(100% - 45px);
+    /* Opera */
+    height: -o-calc(100% - 45px);
+    /* Standard */
+    height: calc(100% - 45px)
+    
+}
+
+.main-content {
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+    max-height: 100%;
+}
+
+.main-content::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.main-content::-webkit-scrollbar {
+    width: 0px;
+    background-color: #BCABBC;
+}
+
+.main-content::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #BCABBC;
+    ;
+}
+
+//SideNav Styling
+#sidenav {
+    background-color: #3F0E40;
+    font-size: 16px;
+}
+
+//Menu list Styling
+.list {
+    color: #bcabbc;
+    a {
+        color: #bcabbc;
+    }
+}
+
+.material-icons {
+    padding-left: 0px;
+    vertical-align: middle;
+}
+
+//Side nav header styling with hover effects
+.header {
+    background-color: #3F0E40;
+    position: sticky;
+    top: 0px;
+    color: white;
+    font-weight: bold;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    width: 93%;
+    border-top: .01px solid #837e83;
+    border-bottom: .01px solid #837e83;
+    overflow: hidden;
+    padding-left: 5%;
+    padding-right: 2%;
+    z-index: 10;
+    -ms-overflow-style: none;
+}
+
+.header:hover {
+    background-color: #350d36;
+    cursor: pointer;
+}
+
+//Scroll bar styling
+.header::-webkit-scrollbar {
+    display: none;
+}
+
+.header h3 {
+    width: 69%;
+    margin: 1% 2% 1% 1%;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+//Header icon styling
+// .compose-msg {
+//     width: 30px;
+//     height: 30px;
+//     color: black;
+//     background-color: white;
+//     border-radius: 50%;
+//     text-align: center;
+//     margin-left: 80%;
+// }
+.mat-icon-button {
+    border: 1px solid #3f0e40;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.compose-msg {
+    /* align-content:center; */
+    color: black;
+    background-color: white;
+}
+
+//Keyboard arrows styling with hover effects
+.icon:hover {
+    background-color: #532753;
+    color: #bcabbc;
+    opacity: .7;
+    border-radius: 20%;
+}
+
+//Menu list name
+.icon-name {
+    font-size: 15px;
+    line-height: 28px;
+    margin-left: 1%;
+}
+
+//Channel list menu
+.sidenav-channelList {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.mat-list-item-content {
+    padding: 0%;
+}
+
+//add icon styling
+.add {
+    visibility: hidden;
+    margin-left: 20%;
+    margin-left: auto;
+}
+
+//add Icon to be visible on hover
+.item:hover {
+    background-color: #350d36;
+    .add {
+        visibility: visible;
+    }
+}

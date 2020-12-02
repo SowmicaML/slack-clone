@@ -1,0 +1,52 @@
+//srollable message display area
+.example-viewport {
+    width: 100%;
+    height: 400px;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.receiver {
+    height: 10%;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.msg {
+    width: 80%;
+    position: fixed;
+    bottom: 15px;
+}
+
+.pl {
+    padding-left: 25px;
+    /* Firefox */
+    height: -moz-calc(100% - 160px);
+    /* WebKit */
+    height: -webkit-calc(100% - 160px);
+    /* Opera */
+    height: -o-calc(100% - 160px);
+    /* Standard */
+    height: calc(100% - 160px)
+}
+
+//scrollbar styling
+.example-viewport::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.example-viewport::-webkit-scrollbar {
+    width: 7px;
+    background-color: #BCABBC;
+}
+
+.example-viewport::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #BCABBC;
+    ;
+}
