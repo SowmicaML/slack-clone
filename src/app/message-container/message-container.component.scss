@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .example-viewport {
     width: 100%;
     height: 400px;
@@ -8,4 +9,35 @@
     padding-left: 25px;
   }
  
+=======
+.example-viewport {
+    width: 100%;
+    height: 400px;
+    overflow-x: hidden;
+  }
+  .pl{
+    padding-left: 25px;
+  }
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
+}
+ 
+>>>>>>> 913a9f3b48a15cc27604ccd1b11e3802c7a8e4c3
   

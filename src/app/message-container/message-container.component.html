@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="message-container" style="height:100%">
   <app-chat-header [receiver]="receiver" style="height:10%"></app-chat-header>
   <div class="pl" style="height:70%">
@@ -9,4 +10,17 @@
         
   </div>
   <app-message style="height:20%"></app-message>
+=======
+<div>
+  <app-chat-header [receiver]="receiver"></app-chat-header>
+  <div class="pl">
+      <cdk-virtual-scroll-viewport itemSize="50" class="example-viewport">
+          <div *ngFor="let message of messages" class="example-item">
+            <app-message-box [message]='message'></app-message-box>
+          </div>
+      </cdk-virtual-scroll-viewport>
+        
+  </div>
+  <app-message  (sendMessage)="sendMessageToParent($event)" ></app-message>
+>>>>>>> 913a9f3b48a15cc27604ccd1b11e3802c7a8e4c3
 </div>

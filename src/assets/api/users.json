@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [{
         "id": 1,
         "name": "Hari",
@@ -15,6 +16,26 @@
         "name": "Damini",
         "status": 1,
         "color": "pink"
+=======
+[
+    {
+      "id" : 1,
+      "name" : "Haritha Jayasankar    you",
+      "status" : 1,
+      "color":"green"
+    },
+    {
+      "id" : 2,
+      "name" : "Akshaya Venkatesh",
+      "status" : 0,
+      "color":"lightblue"
+    },
+    {
+      "id" : 3,
+      "name" : "Damini",
+      "status" : 1,
+      "color":"pink"
+>>>>>>> 913a9f3b48a15cc27604ccd1b11e3802c7a8e4c3
     },
     {
         "id": 4,
@@ -23,6 +44,7 @@
         "color": "orange"
     },
     {
+<<<<<<< HEAD
         "id": 5,
         "name": "Gowtham S",
         "status": 0,
@@ -59,3 +81,52 @@
         "color": "green"
     }
 ]
+=======
+      "id" : 5,
+      "name" : "Gowtham S",
+      "status" : 0,
+      "color":"violet"
+    },
+    {
+      "id" : 6,
+      "name" : "Hari Vishnu Prasad",
+      "status" : 1,
+      "color":"green"
+    },
+    {
+      "id" : 7,
+      "name" : "Mohan Raj",
+      "status" : 0,
+      "color":"blue"
+    },
+    {
+      "id" : 8,
+      "name" : "Naveen Mohan",
+      "status" : 1,
+      "color":"yellow"
+    },
+    {
+      "id" : 9,
+      "name" : "Sowmica M.L",
+      "status" : 1,
+      "color":"lightblue"
+    },
+    {
+      "id" : 10,
+      "name" : "Vishal Pk",
+      "status" : 0,
+      "color":"green"
+    }
+  ]
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 913a9f3b48a15cc27604ccd1b11e3802c7a8e4c3
