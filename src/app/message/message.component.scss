@@ -101,6 +101,10 @@ input:focus {
     bottom: 150%;
     left: 50%;
     margin-left: -60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+    font-weight: normal;
 }
 
 .tooltip .tooltiptext::after {

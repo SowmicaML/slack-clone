@@ -2,11 +2,11 @@
   <app-chat-header [receiver]="receiver"></app-chat-header>
   <div class="pl">
       <cdk-virtual-scroll-viewport itemSize="50" class="example-viewport">
-          <div *cdkVirtualFor="let message of messages" class="example-item">
+          <div *ngFor="let message of messages" class="example-item">
             <app-message-box [message]='message'></app-message-box>
           </div>
       </cdk-virtual-scroll-viewport>
         
   </div>
-  <app-message></app-message>
+  <app-message  (sendMessage)="sendMessageToParent($event)" ></app-message>
 </div>

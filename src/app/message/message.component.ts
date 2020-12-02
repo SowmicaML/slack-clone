@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component,EventEmitter,OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-message',
@@ -6,14 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./message.component.scss']
 })
 export class MessageComponent implements OnInit {
+  
+  @Output() sendMessage: EventEmitter<String> = new EventEmitter<String>();
   constructor() { }
 
   ngOnInit(): void {
   }
     message="";
-    messageArray =[];
   textdisplay(){
-      this.messageArray.push(this.message);
+      this.sendMessage.emit(this.message);
       this.message="";
   }
  

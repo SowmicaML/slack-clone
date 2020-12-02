@@ -8,6 +8,7 @@ export class Message{
   sender:string;
   receiver:string;
   messages:[];
+  date:Date=new Date();
   constructor(sender,receiver,messages){
     this.sender=sender;
     this.receiver=receiver;

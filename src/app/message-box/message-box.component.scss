@@ -28,7 +28,6 @@
 .floating-icon{
     padding: 10px;
     opacity: 0.8;
-    border-radius: 5px;
     &:hover{
         background-color: #F8F8F8;
        
@@ -63,7 +62,7 @@
         visibility: hidden;
         border :1px solid #999999;
         border-radius: 5px;
-        background-color: white;
+        background-color: #FFFFFF;
     }
     .drop-shadow.bottom {
         box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
@@ -77,37 +76,33 @@
 .tooltip {
     position: relative;
     display: inline-block;
+    border-bottom: 1px  black;
   }
   
   .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    background-color: #000000;
+    background-color: black;
     color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    font-size: small;
+    /* Position the tooltip */
     position: absolute;
     z-index: 1;
-    bottom: 150%;
+    bottom: 100%;
     left: 50%;
-    margin-left: -70px;
-    font-size: smaller;
-  }
-  
-  .tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: black transparent transparent transparent;
+    margin-left: -90px;
+    margin-bottom: 5px;
   }
   
   .tooltip:hover .tooltiptext {
     visibility: visible;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
+
+ .m110{
+     margin-left: -110px;
+ }

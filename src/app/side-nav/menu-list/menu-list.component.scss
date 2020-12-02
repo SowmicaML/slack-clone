@@ -1,6 +1,7 @@
 .channel-item-name{
   margin-left:8px;
 }
+
 .user-item-name{
   margin-left: 10px;
 }
@@ -10,6 +11,17 @@
   color:#bcabbc;
   font-size: 15px;
   line-height: 28px;
+}
+.item:hover{
+  background-color: #350d36;
+  .close-icon{
+    visibility:visible;
+  }
+}
+.close-icon{
+  margin-left: auto;
+  visibility: hidden;
+  color:#bcabbc;
 }
 .routeIcon {
   border-radius: 20%;
@@ -37,12 +49,13 @@
 //   color: white;
 //   background-color: green;
 // }
+
 .onlinestatus {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  border: 2px solid #3F0E40;
-  background-color: #2BAC76;
+  border: 2px solid #3f0e40;
+  background-color: #2bac76;
   position: absolute;
   top: 65%;
   left: 65%;
@@ -51,40 +64,38 @@
   width: 5px;
   height: 5.2px;
   border-radius: 50%;
-  border: 2px solid #BCABBC;
-  background-color: #3F0E40;
+  border: 2px solid #bcabbc;
+  background-color: #3f0e40;
   position: absolute;
   top: 65%;
   left: 65%;
 } 
+
 .green{
-  color: #F2F8F7;
-  background-color: #027B5C;
+  color: #f2f8f7;
+  background-color: #027b5c;
 }
 .blue{
-  color: #0B4C8C;
-  background-color: #F0F4F8;
+  color: #0b4c8c;
+  background-color: #f0f4f8;
 }
 .yellow{
   color:#fdf9ec;
-  background-color: #F2C744;
+  background-color: #f2c744;
 }
 .lightblue{
-  color: #D5E9F2;
-  background-color: #1D9BD1 ;
+  color: #d5e9f2;
+  background-color: #1d9bd1 ;
 }
 .pink{
   color:#e01e5a;
-  background-color: #FDF4F7;
+  background-color: #fdf4f7;
 }
 .violet{
-  color: #8A2E99;
+  color: #8a2e99;
   background-color:#f9f5fa ;
 }
 .orange{
   color:#fcedea;
-  background-color: #DE4E2B;
-}
-.item:hover{
-  background-color: #350D36;
+  background-color: #de4e2b;
 }
