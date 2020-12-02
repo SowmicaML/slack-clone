@@ -28,6 +28,10 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+
               "src/styles.scss"
             ],
             "scripts": []
@@ -92,6 +96,10 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +131,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "slack-clone"
+    }
+  },
+
+  "defaultProject": "slack-clone",
+  "cli": {
+    "analytics": "abf59411-3a0f-49a1-9050-8e1166d61872"
+  }
 }
+
