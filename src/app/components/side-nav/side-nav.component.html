@@ -1,0 +1,84 @@
+<!-- SideNav and Main Container -->
+<mat-sidenav-container class="container">
+    <!-- Side nav -->
+    <mat-sidenav id="sidenav" mode="side" opened="true" style="width:20%;">
+
+        <!-- header -->
+        <div class="header">
+            <h3>Coda Academy Batch 2021</h3>
+            <span class="material-icons" style="font-size: 15px;font-weight: bold;" (click)="emit(showCard);" (blur)="focus()">
+                  keyboard_arrow_down
+            </span>
+            <!-- <span class="material-icons md-36 compose-msg"></span> -->
+
+
+            <a class="mat-icon-button">
+                <mat-icon class=" material-icons compose-msg">create</mat-icon>
+            </a>
+
+        </div>
+
+        <!-- First list(Threads to More) -->
+        <mat-nav-list class=" list sidenav-firstlist">
+            <app-first-list></app-first-list>
+        </mat-nav-list>
+
+        <!-- Channel List -->
+        <mat-nav-list class=" list sidenav-channelList overflow">
+            <a class="item" mat-list-item routerLink="/#" routerLinkActive="active">
+                <!-- Conditionally rendering the channel List on toggle -->
+                <span class="material-icons icon" *ngIf="showChannelListToggle" (click)="showChannelListToggle=!showChannelListToggle">
+                      keyboard_arrow_down
+                </span>
+                <!-- Change the position of spinning icon on & off toggle -->
+                <span class="material-icons" *ngIf="!showChannelListToggle" (click)="showChannelListToggle=!showChannelListToggle">
+                      keyboard_arrow_right
+                </span>
+                <span class="icon-name">Channels</span>
+                <span class="material-icons add right">add</span>
+            </a>
+            <!-- Binding the val to menu list component for the channel list to be rendered on load of application -->
+            <app-menu-list [showChannelListToggle]="showChannelListToggle" [showChannelList]="true"></app-menu-list>
+        </mat-nav-list>
+
+        <!-- User List -->
+        <mat-nav-list class="list sidenav-DMList overflow">
+            <a class="item" mat-list-item routerLink="/#" routerLinkActive="active">
+                <!-- Conditionally rendering the user List on toggle -->
+                <span class="material-icons icon" *ngIf="showUserListToggle" (click)="showUserListToggle=!showUserListToggle">
+                     keyboard_arrow_down
+                </span>
+                <!-- Change the position of spinning icon on & off toggle -->
+                <span class="material-icons" *ngIf="!showUserListToggle" (click)="showUserListToggle=!showUserListToggle">
+                     keyboard_arrow_right
+                 </span>
+                <span class="icon-name">Direct messages</span>
+                <span class="material-icons add">add</span>
+            </a>
+            <!-- Binding the val to menu list component for the user list to be rendered on load of application  -->
+            <app-menu-list [showUserListToggle]="showUserListToggle" [showUserList]="true"></app-menu-list>
+        </mat-nav-list>
+
+        <!-- App List -->
+        <mat-nav-list class="list sidenav-AppList overflow">
+            <a class="item" mat-list-item routerLink="/#" routerLinkActive="active">
+                <!-- Conditionally rendering the app List on toggle -->
+                <span class="material-icons icon" *ngIf="showAppListToggle" (click)="showAppListToggle=!showAppListToggle">
+                     keyboard_arrow_down
+                </span>
+                <!-- Change the position of spinning icon on & off toggle -->
+                <span class="material-icons" *ngIf="!showAppListToggle" (click)="showAppListToggle=!showAppListToggle">
+                     keyboard_arrow_right
+                </span>
+                <span class="icon-name">Apps</span>
+                <span class="material-icons add">add</span>
+            </a>
+            <!-- Binding the val to app list component for the user list to be rendered on load of application  -->
+            <app-menu-list [showAppListToggle]="showAppListToggle" [showAppList]="true"></app-menu-list>
+        </mat-nav-list>
+    </mat-sidenav>
+    <!-- Main-Container -->
+    <mat-sidenav-content class="main-content">
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

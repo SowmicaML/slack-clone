@@ -1,0 +1,62 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users" : [
+    {
+      "id" : 1,
+      "name" : "Haritha Jayasankar"
+    },
+    {
+      "id" : 2,
+      "name" : "Sowmica M.L"
+    },
+    {
+      "id" : 3,
+      "name" : "Vishal Pk"
+    },
+    {
+      "id" : 4,
+      "name" : "Govind K"
+    },
+    {
+      "id" : 5,
+      "name" : "Hari Vishnu Prasad"
+    },
+    {
+      "id" : 6,
+      "name" : "Gowtham S"
+    },
+    {
+      "id" : 7,
+      "name" : "Damini"
+    },
+    {
+      "id" : 8,
+      "name" : "Mohan Raj"
+    },
+    {
+      "id" : 9,
+      "name" : "Akshaya Venkatesh"
+    },
+    {
+      "id" : 10,
+      "name" : "Naveen Mohan"
+    }
+  ]
+
+}

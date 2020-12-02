@@ -1,0 +1,126 @@
+//Channel item list style
+.channel-item-name {
+    margin-left: 8px;
+}
+
+//User item list style
+.user-item-name {
+    margin-left: 10px;
+}
+
+//Item styling
+.item {
+    height: 31px;
+    padding-left: 10px;
+    color: #bcabbc;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+//Menu items hover styling
+.item:hover {
+    background-color: #350d36;
+    .close-icon {
+        visibility: visible;
+    }
+}
+
+//Close icon styling
+.close-icon {
+    margin-left: auto;
+    visibility: hidden;
+    color: #bcabbc;
+}
+
+//currentUser you
+.you {
+    margin-left: 15px;
+    color: #BCABBC;
+    opacity: 0.6;
+}
+
+//Channel list icon design
+.routeIcon {
+    border-radius: 20%;
+    padding: 2px;
+    height: 19px;
+    width: 19px;
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #532753;
+    opacity: .7;
+    color: white;
+}
+
+//User Icon styling
+.userIconWrapper {
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+
+.person-icon {
+    border-radius: 20%;
+}
+
+//User online status styling
+.onlinestatus {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 2px solid #3f0e40;
+    background-color: #2bac76;
+    position: absolute;
+    top: 65%;
+    left: 65%;
+}
+
+//User offline status styling
+.offlinestatus {
+    width: 5px;
+    height: 5.2px;
+    border-radius: 50%;
+    border: 2px solid #bcabbc;
+    background-color: #3f0e40;
+    position: absolute;
+    top: 65%;
+    left: 65%;
+}
+
+//User icon colours
+.green {
+    color: #f2f8f7;
+    background-color: #027b5c;
+}
+
+.blue {
+    color: #0b4c8c;
+    background-color: #f0f4f8;
+}
+
+.yellow {
+    color: #fdf9ec;
+    background-color: #f2c744;
+}
+
+.lightblue {
+    color: #d5e9f2;
+    background-color: #1d9bd1;
+}
+
+.pink {
+    color: #e01e5a;
+    background-color: #fdf4f7;
+}
+
+.violet {
+    color: #8a2e99;
+    background-color: #f9f5fa;
+}
+
+.orange {
+    color: #fcedea;
+    background-color: #de4e2b;
+}

@@ -1,0 +1,24 @@
+<!-- emoji component -->
+<emoji-mart class="emoji-mart custom" set="{{set}}" *ngIf="showEmojiPicker" (emojiSelect)="addEmoji($event)"></emoji-mart>
+
+<!-- text area to type -->
+<div class="box">
+    <input (keydown.enter)="textdisplay()" (blur)="onBlur()" (focus)="onFocus()" [(ngModel)]="message" type=" text " class="text " placeholder="Enter a message"><br>
+    <div class="formatting">
+        <i class="fas fa-bolt tooltipm"><span class="tooltiptextm">Shortcuts</span></i>
+        <i class="fas fa-bold tooltipm"><span class="tooltiptextm">Bold</span></i>
+        <i class="fas fa-italic tooltipm"><span class="tooltiptextm">Italic</span></i>
+        <i class="fas fa-strikethrough tooltipm"><span class="tooltiptextm">Strikethrough</span></i>
+        <i class="fas fa-code tooltipm"><span class="tooltiptextm">Code</span></i>
+        <i class="fas fa-link tooltipm"><span class="tooltiptextm">Link</span></i>
+        <i class="fas fa-list-ol tooltipm"><span class="tooltiptextm">Ordered list</span></i>
+        <i class="fas fa-list tooltipm"><span class="tooltiptextm">List</span></i>
+        <i class="fas fa-grip-lines tooltipm"><span class="tooltiptextm">Block Quote</span></i>
+        <i class="fas fa-code tooltipm"><span class="tooltiptextm">Code Block</span></i>
+        <i (click)="textdisplay()" class="far fa-paper-plane tooltipm"><span class="tooltiptextm">Send</span></i>
+        <i (click)="toggleEmojiPicker()" class="far fa-smile tooltipm"><span class="tooltiptextm">Smileys</span></i>
+        <i class="fas fa-font tooltipm"><span class="tooltiptextm">Font</span></i>
+        <i class="fas fa-at tooltipm"><span class="tooltiptextm">Mention</span></i>
+        <i class=" fas fa-paperclip tooltipm "><span class="tooltiptextm ">Attach</span></i>
+    </div>
+</div>
